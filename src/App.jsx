@@ -20,7 +20,7 @@ const App = () => {
     <div className='bg-[#111] h-full'>
       <div className='lg:flex'>
         <form onSubmit={(e)=>{
-          submitHandler(e)}} action="" className='flex flex-col  rounded gap-4 lg:w-1/2  mt-10 mx-10'>
+          submitHandler(e)}} action="" className='flex flex-col  rounded gap-4 lg:w-1/2  lg:mt-10 pt-15 mx-10'>
             <h1 className='text-white text-3xl font-bold '>Add Notes</h1>
           <input value={title} onChange={(e)=>{
             setTitle(e.target.value);
